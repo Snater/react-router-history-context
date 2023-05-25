@@ -1,5 +1,9 @@
 # react-router-history-context
 
+[![npm](https://img.shields.io/npm/v/react-router-history-context)](https://www.npmjs.com/react-router-history-context)
+[![npm peer dependency version](https://img.shields.io/npm/dependency-version/react-router-history-context/peer/react-router-dom)](https://www.npmjs.com/package/react-router-dom)
+[![build](https://github.com/Snater/react-router-history-context/actions/workflows/test.yml/badge.svg)](https://github.com/Snater/react-router-history-context/actions/workflows/test.yml)
+
 The `HistoryContext` provided by this package tracks the navigation history within a web application. The primary use-case is having back/forward navigation buttons in an application that are to be disabled/enabled according to the navigation history tracked within the application. For example, a user might have visited external pages before navigating to the application the `HistoryContext` is used in, which the application-internal back button should not offer navigating back to, while it's of course possible using the browsers navigation buttons though.
 
 ## Usage
